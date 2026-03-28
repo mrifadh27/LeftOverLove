@@ -1,4 +1,4 @@
-# 🌱 LeftoverLove — Reduce Food Waste. Feed Communities.
+# LeftoverLove — Reduce Food Waste. Feed Communities.
 
 > A community-driven food sharing platform that connects food donors with people in need through real-time maps, volunteer pickups, and a trust-based rating system.
 
@@ -8,24 +8,24 @@
 
 | Role | Capabilities |
 |------|-------------|
-| 🧑‍🍳 **Donor** | Create food listings, track donations, view analytics & donation streaks |
-| 🙋 **Receiver** | Browse nearby food, request pickups, track deliveries in real-time |
-| 🚗 **Volunteer** | Accept delivery requests, live GPS location sharing |
-| 🏢 **NGO** | Bulk food requests for organizations |
-| 🛡️ **Admin** | User management, ban system, complaint handling |
+|  **Donor** | Create food listings, track donations, view analytics & donation streaks |
+|  **Receiver** | Browse nearby food, request pickups, track deliveries in real-time |
+|  **Volunteer** | Accept delivery requests, live GPS location sharing |
+|  **NGO** | Bulk food requests for organizations |
+|  **Admin** | User management, ban system, complaint handling |
 
-### ✨ Platform Highlights
-- 📍 Interactive food map with location-based filtering
-- 🔔 Real-time notifications and in-app messaging
-- 🤖 Smart food recommendations based on proximity
-- ⏳ Countdown timers for expiring listings
-- 🔐 Role-based access control
-- 📊 Donation analytics dashboard
-- 🎉 Pickup completion celebrations
+###  Platform Highlights
+-  Interactive food map with location-based filtering
+-  Real-time notifications and in-app messaging
+-  Smart food recommendations based on proximity
+-  Countdown timers for expiring listings
+-  Role-based access control
+-  Donation analytics dashboard
+-  Pickup completion celebrations
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - **Frontend** — React + TypeScript + Vite
 - **Backend** — Supabase (Auth, Database, Realtime, Storage)
@@ -35,7 +35,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -92,7 +92,7 @@ supabase/
 
 ---
 
-## 🗄️ Database Migrations
+##  Database Migrations
 
 Run these in order from `/supabase/migrations/` in your Supabase SQL Editor:
 
@@ -119,7 +119,7 @@ Run these in order from `/supabase/migrations/` in your Supabase SQL Editor:
 
 ---
 
-## 👤 Changing User Roles (Admin)
+##  Changing User Roles (Admin)
 
 In your Supabase dashboard → SQL Editor:
 
@@ -130,7 +130,3 @@ WHERE user_id = 'paste-user-uuid-here';
 ```
 
 Available roles: `donor`, `receiver`, `volunteer`, `ngo`, `admin`
-
----
-
-<p align="center">Built with ❤️ to reduce food waste and feed communities.</p>
