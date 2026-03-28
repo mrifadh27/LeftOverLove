@@ -45,7 +45,7 @@
 
 **1. Clone the repository**
 ```bash
-https://github.com/Kaviharan08/LeftOverLove-main_v2.git
+https://github.com/mrifadh27/LeftOverLove.git
 cd LeftOverLove
 ```
 
