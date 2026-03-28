@@ -4,7 +4,7 @@
 
 ---
 
-## 🍽️ Features
+# Features
 
 | Role | Capabilities |
 |------|-------------|
@@ -51,7 +51,7 @@ cd LeftOverLove
 
 **2. Install dependencies**
 ```bash
-npm install --legacy-peer-deps
+npm install
 ```
 
 **3. Set up environment variables**
@@ -71,7 +71,7 @@ Go to your Supabase project → SQL Editor and run each file in `/supabase/migra
 npm run dev
 ```
 
-Open [http://localhost:8080](http://localhost:8080) in your browser.
+Open http://localhost:8080 in your browser.
 
 ---
 
